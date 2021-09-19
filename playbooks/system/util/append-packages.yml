@@ -1,0 +1,23 @@
+---
+# HACK: do not allow query to fail (which it will frequently) since we check
+# the return code anyway, thus suppressing noisy output
+# https://stackoverflow.com/questions/35723913/need-to-hide-failed-log-in-ansible-task
+- name: List package group members
+  ansible.builtin.shell: pacman -Qqg {{ item }}
+  failed_when: false
+  register: result
+
+- name: Append package group members to "packages" list
+  set_fact:
+    packages: "{{ packages + [result.stdout_lines] | flatten }}"
+  when: result.rc == 0
+
+- name: Append item to "packages" list
+  set_fact:
+    packages: "{{ packages + [item] }}"
+  when: result.rc != 0
+
+- name: Debug packages
+  debug:
+    msg: "{{ packages }}"
+  when: debug

@@ -1,0 +1,48 @@
+---
+- name: Install
+  hosts: all
+  vars:
+    packages: []
+
+  pre_tasks:
+    # TODO: create users, etc
+
+  roles:
+    - foo
+    - bar
+
+  post_tasks:
+    - name: List all explicitly-installed packages
+      ansible.builtin.shell: pacman -Qqe
+      register: installed_packages
+
+    - name: Debug "Remove explicitly-installed packages that have not been listed"
+      vars:
+        installed_packages_list: "{{ installed_packages.stdout_lines }}"
+      ansible.builtin.debug:
+        msg: "explicitly-installed packages to be removed {{ installed_packages_list | difference(packages) }}"
+      when: debug
+
+    - name: Remove explicitly-installed packages that have not been listed
+      vars:
+        installed_packages_list: "{{ installed_packages.stdout_lines }}"
+      community.general.pacman:
+        name: {{ installed_packages_list | difference(packages) }}
+        state: absent
+
+    - name: Find orphaned packages
+      ansible.builtin.shell: pacman -Qtdq
+      failed_when: false
+      register: orphans
+
+    - name: Debug "Remove orphaned packages"
+      ansible.builtin.debug:
+        msg: "orphaned packages to be removed: {{ orphans }}"
+      when: debug
+
+    - name: Remove orphaned packages
+      vars:
+        orphans_list: "{{ orphans.stdout_lines) }}"
+      community.general.pacman:
+        name: "{{ orphans_list }}"
+        state: absent
