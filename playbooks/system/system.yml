@@ -5,7 +5,12 @@
     packages: []
 
   pre_tasks:
-    # TODO: create users, etc
+    - name: Allow the user to execute `pacman` without a password
+      ansible.builtin.lineinfile:
+        path: /etc/sudoers.d/11-{{ ansible_user }}
+        line: "{{ ansible_user }} ALL=(ALL) NOPASSWD: /usr/bin/pacman"
+        create: yes
+        validate: 'visudo -cf %s'
 
   roles:
     - core
