@@ -42,6 +42,7 @@
       community.general.pacman:
         name: "{{ item }}"
         state: removed
+        extra_args: --recursive
       with_items:
         - "{{ installed_packages_list | difference(packages) }}"
 
@@ -61,5 +62,6 @@
       community.general.pacman:
         name: "{{ item }}"
         state: removed
+        extra_args: --recursive
       with_items:
         - "{{ orphans_list }}"
