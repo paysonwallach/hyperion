@@ -12,6 +12,12 @@
         create: yes
         validate: 'visudo -cf %s'
 
+    - name: Install paru using makepkg if it isn't installed already
+      kewlfft.aur.aur:
+        name: paru
+        use: makepkg
+        state: present
+
   roles:
     - core
     - foreign
@@ -34,8 +40,10 @@
       vars:
         installed_packages_list: "{{ installed_packages.stdout_lines }}"
       community.general.pacman:
-        name: {{ installed_packages_list | difference(packages) }}
-        state: absent
+        name: "{{ item }}"
+        state: removed
+      with_items:
+        - "{{ installed_packages_list | difference(packages) }}"
 
     - name: Find orphaned packages
       ansible.builtin.shell: pacman -Qtdq
@@ -49,7 +57,9 @@
 
     - name: Remove orphaned packages
       vars:
-        orphans_list: "{{ orphans.stdout_lines) }}"
+        orphans_list: "{{ orphans.stdout_lines }}"
       community.general.pacman:
-        name: "{{ orphans_list }}"
-        state: absent
+        name: "{{ item }}"
+        state: removed
+      with_items:
+        - "{{ orphans_list }}"
