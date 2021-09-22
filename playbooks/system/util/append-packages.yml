@@ -14,7 +14,7 @@
 
 - name: Append item to "packages" list
   set_fact:
-    packages: "{{ packages + [item] }}"
+    packages: "{{ packages + item }}"
   when: result.rc != 0
 
 - name: Debug packages
