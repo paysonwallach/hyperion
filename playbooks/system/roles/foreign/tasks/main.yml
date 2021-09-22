@@ -1,0 +1,10 @@
+---
+- name: Install packages
+  kewlfft.aur.aur:
+    name: "{{ foreign_packages }}"
+    state: present
+
+- name: Append package list
+  ansible.builtin.include_tasks: util/append-packages.yml
+  with_items:
+    - ["{{ foreign_packages }}"]

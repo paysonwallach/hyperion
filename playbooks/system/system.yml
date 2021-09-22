@@ -8,8 +8,10 @@
     # TODO: create users, etc
 
   roles:
-    - foo
-    - bar
+    - core
+    - foreign
+    - optional
+    - make
 
   post_tasks:
     - name: List all explicitly-installed packages

@@ -1,0 +1,299 @@
+core_packages:
+  - acpi # Client for battery, power, and thermal readings
+  - alsa-utils # Advanced Linux Sound Architecture - Utilities
+  - ansible # Official assortment of Ansible collections
+  - ansible-lint # Checks playbooks for practices and behaviour that could potentially be improved.
+  - ant # Java based build tool
+  - arch-audit # A utility like pkg-audit based on Arch Security Team data
+  - asciidoc # Text document format for short documents, articles, books and UNIX man pages
+  - aspell-en # English dictionary for aspell
+  - atom # Atom package manager
+  - autoconf # A GNU tool for automatically configuring source code
+  - automake # A GNU tool for automatically creating Makefiles
+  - baobab # A graphical directory tree analyzer
+  - base # Radically simple IT automation platform
+  - bash-completion # Programmable completion for the bash shell
+  - bash-language-server # Bash language server implementation based on Tree Sitter and its grammar for Bash
+  - bat # Client for battery, power, and thermal readings
+  - bc # An arbitrary precision calculator language
+  - bind # C++ bindings for ATK
+  - binutils # A set of programs to assemble and manipulate binary and object files
+  - bison # The GNU general-purpose parser generator
+  - bluez-cups # CUPS printer backend for Bluetooth printers
+  - bluez-utils # Development and debugging utilities for the bluetooth protocol stack
+  - boost # Free peer-reviewed portable C++ source libraries (development headers)
+  - brasero # CD/DVD mastering tool
+  - breezy # A decentralized revision control system with support for Bazaar and Git file formats
+  - broot # Fuzzy Search + tree + cd
+  - capnet-assist # Captive Portal Assistant
+  - cargo-edit # Managing cargo dependencies from the command line
+  - ccls # C/C++/ObjC language server supporting cross references, hierarchies, completion and semantic highlighting
+  - celluloid # Simple GTK+ frontend for mpv
+  - chromium # A web browser built for speed, simplicity, and security
+  - clang # C language family frontend for LLVM
+  - coin-or-mp # C-API library that supports most of the functionality of CLP (Coin LP), CBC (Coin Branch-and-Cut), and CGL (Cut Generation Library) projects
+  - contractor # A desktop-wide extension service
+  - cpupower # Linux kernel tool to examine and tune power saving related features of your processor
+  - d-feet # D-Bus debugger for GNOME
+  - dbeaver # Free universal SQL Client for developers and database administrators (community edition)
+  - dconf-editor # dconf Editor
+  - devhelp # API documentation browser for GNOME with DocSet support.
+  - devtools # Tools for Arch Linux package maintainers
+  - dhcp # A DHCP server, client, and relay agent
+  - dialog # A tool to display dialog boxes from shell scripts
+  - dino # Modern XMPP (Jabber) chat client written in Vala
+  - dnsmasq # Lightweight, easy to configure DNS forwarder and DHCP server
+  - docker # Pack, ship and run any application as a lightweight container
+  - docker-compose # Fast, isolated development environments using Docker
+  - dtools # Ancilliary tools for the D programming language
+  - dub # Developer package manager for D programming language
+  - dust # Ancilliary tools for the D programming language
+  - earlyoom # Early OOM Daemon for Linux
+  - eigen # Lightweight C++ template library for vector and matrix math, a.k.a. linear algebra
+  - elementary-icon-theme # Named, vector icons for elementary OS
+  - epiphany # A GNOME web browser based on the WebKit rendering engine
+  - evince # Document viewer (PDF, PostScript, XPS, djvu, dvi, tiff, cbr, cbz, cb7, cbt)
+  - evolution # Manage your email, contacts and schedule
+  - exa # Linux kernel tool to examine and tune power saving related features of your processor
+  - fakeroot # Tool for simulating superuser privileges
+  - fd # Simple, fast and user-friendly alternative to find
+  - file-roller # Create and modify archives
+  - firefox # Standalone web browser from mozilla.org with appmenu support
+  - fish # Smart and user friendly shell intended mostly for interactive use
+  - flatpak # Linux application sandboxing and distribution framework (formerly xdg-app)
+  - flatpak-builder # Tool to build flatpaks from source
+  - flex # A powerful and flexible software integration toolset
+  - foliate # A simple and modern GTK eBook reader
+  - fzf # Command-line fuzzy finder
+  - gala # The Pantheon Window Manager
+  - gcc # The GNU Compiler Collection - C and C++ frontends
+  - gedit # GNOME Text Editor
+  - git # FUSE driver for APFS (Apple File System)
+  - git-filter-repo # Quickly rewrite git repository history (filter-branch replacement)
+  - gitg # GNOME GUI client to view git repositories
+  - glade # User Interface Builder for GTK+ applications
+  - gnome-boxes # Simple GNOME application to access virtual systems
+  - gnome-characters # A character map application
+  - gnome-dictionary # Look up words in dictionary sources
+  - gnome-disk-utility # Disk Management Utility for GNOME
+  - gnome-documents # A document manager application for GNOME
+  - gnome-font-viewer # A font viewer utility for GNOME
+  - gnome-logs # A log viewer for the systemd journal
+  - gnome-maps # A simple GNOME 3 maps application
+  - gnome-podcasts # Podcast application for GNOME
+  - gnome-system-monitor # View current processes and monitor system state
+  - gnome-weather # Access current weather conditions and forecasts
+  - gom # A GObject to SQLite object mapper
+  - gperf # Perfect hash function generator
+  - grc # Yet another colouriser for beautifying your logfiles or output of commands
+  - groff # GNU troff text-formatting system
+  - gsettings-desktop-schemas # Shared GSettings schemas for the desktop
+  - gsmartcontrol # A graphical user interface for the smartctl hard disk drive health inspection tool.
+  - gtk-theme-elementary # elementary GTK theme
+  - gtk4 # GObject-based multi-platform GUI toolkit
+  - gtranslator # An enhanced gettext po file editor for the GNOME desktop environment
+  - gvfs # Virtual filesystem implementation for GIO
+  - gvfs-smb # Virtual filesystem implementation for GIO (SMB/CIFS backend; Windows client)
+  - hunspell-en_gb # GB English hunspell dictionaries
+  - hunspell-en_us # US English hunspell dictionaries
+  - hyphen-en # English hyphenation rules
+  - imagemagick # An image viewing/manipulation program
+  - inkscape # Professional vector graphics editor
+  - intel-media-driver # Intel Media Driver for VAAPI — Broadwell+ iGPUs
+  - intel-ucode # Microcode update files for Intel CPUs
+  - inter-font # A typeface specially designed for user interfaces
+  - irqbalance # IRQ balancing daemon for SMP systems
+  - jdk-openjdk # OpenJDK Java 16 development kit
+  - jupyterlab # Provides the backend for Jupyter web applications like Jupyter notebook, JupyterLab, and Voila
+  - just # library for high quality hyphenation and justification
+  - laptop-detect # Attempts to detect a laptop
+  - ldc # A D Compiler based on the LLVM Compiler Infrastructure including D runtime and libphobos2
+  - leptonica # Software that is broadly useful for image processing and image analysis applications
+  - libadwaita # Building blocks for modern GNOME applications
+  - libgnome-keyring # GNOME keyring client library (deprecated)
+  - libhandy # Library full of GTK+ widgets for mobile phones
+  - libkeybinder3 # A library for registering global keyboard shortcuts
+  - libldac # LDAC encoder and LDAC Adaptive Bit Rate(ABR) libraries
+  - libmediaart # Library tasked with managing, extracting and handling media art caches
+  - libmtp # Library implementation of the Media Transfer Protocol
+  - libmythes # a simple thesaurus
+  - libphobos # A D Compiler based on the LLVM Compiler Infrastructure including D runtime and libphobos2
+  - libqalculate # Multi-purpose desktop calculator
+  - libreoffice-fresh # LibreOffice branch which contains new features and program enhancements
+  - libtool # A generic library support script
+  - libva-utils # Intel VA-API Media Applications and Scripts for libva
+  - libvdpau-va-gl # VDPAU driver with OpenGL/VAAPI backend
+  - lifeograph # Private journal, diary and note taking application
+  - light-locker # A simple session locker for LightDM
+  - lightdm-gtk-greeter # GTK+ greeter for LightDM
+  - lightdm-pantheon-greeter # Pantheon greeter for LightDM
+  - linux # An alternative implementation of Linux sound support
+  - linux-firmware # Firmware files for Linux
+  - lld # Linker from the LLVM project
+  - llvm # C language family frontend for LLVM
+  - logrotate # Rotates system logs automatically
+  - lostfiles # Find orphaned files not owned by any Arch packages
+  - luarocks # Deployment and management system for Lua modules
+  - m4 # The GNU macro processor
+  - make # A GNU tool for automatically creating Makefiles
+  - man-db # A utility for reading man pages
+  - meld # Compare files, directories and working copies
+  - minder # Ergonomic reminder application designed for elementary OS.
+  - mlocate # Merging locate/updatedb implementation
+  - moreutils # A growing collection of the unix tools that nobody thought to write thirty years ago
+  - mosh # Mobile shell, surviving disconnects with local echo and line editing
+  - mosquitto # An Open Source MQTT Broker
+  - mutter # A window manager for GNOME
+  - mythes-en # English thesaurus
+  - namcap # A Pacman package analyzer
+  - nano # Pico editor clone with enhancements
+  - nemiver # C/C++ debugger for GNOME
+  - neovim # GUI for neovim, without any web bloat
+  - netctl # Profile based systemd network management
+  - network-manager-applet # Applet for managing network connections
+  - nmap # Utility for network discovery and security auditing
+  - noto-fonts # Google Noto TTF fonts
+  - noto-fonts-cjk # Google Noto CJK fonts
+  - npm-check-updates # Find newer versions of dependencies than what your package.json or bower.json allows
+  - nss-mdns # glibc plugin providing host name resolution via mDNS
+  - pantheon-applications-menu # The Pantheon Application Menu
+  - pantheon-calendar # The Pantheon Calendar
+  - pantheon-files # The Pantheon File Browser
+  - pantheon-geoclue2-agent # Pantheon Geoclue2 Agent
+  - pantheon-mail # Mail app designed for elementary OS
+  - pantheon-music # The Pantheon Music Player
+  - pantheon-notifications # Gtk Notifications Server
+  - pantheon-photos # The Pantheon Photos Manager
+  - pantheon-polkit-agent # Pantheon Polkit Agent
+  - pantheon-screenshot # The Pantheon Screenshot Tool
+  - pantheon-session # Session settings for Pantheon
+  - pantheon-shortcut-overlay # A native, OS-wide shortcut overlay
+  - pantheon-terminal # The Pantheon Terminal Emulator
+  - pass # A password-hashing function (reference C implementation)
+  - patch # Utility programs used for creating patch files
+  - peek # Simple screen recorder with an easy to use interface
+  - perl-image-exiftool # Reader and rewriter of EXIF informations that supports raw files
+  - perl-rename # Renames multiple files using Perl regular expressions.
+  - php # A general-purpose scripting language that is especially suited to web development
+  - php7 # A general-purpose scripting language that is especially suited to web development
+  - pidgin # IM library extracted from Pidgin
+  - pipewire-pulse # Low-latency audio/video router and processor - PulseAudio replacement
+  - pkgconf # Package compiler and linker metadata toolkit
+  - plank # Elegant, simple, clean dock
+  - poedit # Cross-platform gettext catalogs (.po files) editor
+  - postgresql-libs # Libraries for use with PostgreSQL
+  - procs # IPC::Run - system() and background procs w/ piping, redirs, ptys
+  - pyenv # Easily switch between multiple versions of Python
+  - python-black # Uncompromising Python code formatter
+  - python-distutils-extra # Enhancements to the Python build system
+  - python-dulwich # Pure-Python implementation of the Git file formats and protocols
+  - python-ewmh # Python implementation of Extended Window Manager Hints, based on Xlib
+  - python-language-server # An implementation of the Language Server Protocol for Python
+  - python-mccabe # McCabe complexity checker for Python
+  - python-numpy # Scientific tools for Python
+  - python-pip # The PyPA recommended tool for installing Python packages
+  - python-pkgconfig # Python module to interface with the pkg-config command line tool
+  - python-poetry # Python dependency management and packaging made easy
+  - python-pre-commit # A framework for managing and maintaining multi-language pre-commit hooks
+  - python-pycodestyle # Python style guide checker
+  - python-pyflakes # A lint-like tool for Python to identify common errors quickly without executing code
+  - python-pylint # Analyzes Python code looking for bugs and signs of poor quality
+  - python-pyxdg # Python library to access freedesktop.org standards
+  - python-rdflib # A Python library for working with RDF, a simple yet powerful language for representing information
+  - python-rope # Refactoring library
+  - python-virtualenvwrapper # Extensions to Ian Bicking's virtualenv tool
+  - python-wheel # A built-package format for Python
+  - python-xlib # A fully functional X client library for Python programs
+  - python-xpybutil # An incomplete xcb-util port plus some extras
+  - rednotebook # Modern desktop diary and personal journaling tool that lets you format, tag and search your entries
+  - refind # An EFI boot manager
+  - reflector # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+  - ruby-sass # Sass makes CSS fun again
+  - rust-analyzer # Rust compiler front-end for IDEs
+  - scour # An SVG scrubber
+  - scrot # Simple command-line screenshot utility for X
+  - sd # Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+  - seahorse # GNOME application for managing PGP keys.
+  - shfmt # Format shell programs
+  - sshfs # FUSE client based on the SSH File Transfer Protocol
+  - stk # The Synthesis ToolKit in C++
+  - stow # Manage installation of multiple softwares in the same directory tree
+  - strace # A diagnostic, debugging and instructional userspace tracer
+  - sudo # Give certain users the ability to run some commands as root
+  - svgcleaner # An application that cleans svg images from unnecessary data in batch mode.
+  - switchboard # The Pantheon Control Center
+  - switchboard-plug-a11y # Switchboard Universal Access Plug
+  - switchboard-plug-about # Switchboard About Plug
+  - switchboard-plug-applications # Switchboard Applications Plug
+  - switchboard-plug-bluetooth # Switchboard Bluetooth Plug
+  - switchboard-plug-datetime # Switchboard Date & Time Plug
+  - switchboard-plug-desktop # Switchboard Desktop Plug
+  - switchboard-plug-display # Switchboard Display Plug
+  - switchboard-plug-keyboard # Switchboard Keyboard Plug
+  - switchboard-plug-mouse-touchpad # Switchboard Mouse & Touchpad Plug
+  - switchboard-plug-network # Switchboard Network Plug
+  - switchboard-plug-notifications # Switchboard Notifications Plug
+  - switchboard-plug-online-accounts # Switchboard Online Accounts Plug
+  - switchboard-plug-power # Switchboard Power Plug
+  - switchboard-plug-printers # Switchboard Printers Plug
+  - switchboard-plug-security-privacy # Switchboard Security & Privacy Plug
+  - switchboard-plug-sharing # Switchboard Sharing Plug
+  - switchboard-plug-sound # Switchboard Sound Plug
+  - switchboard-plug-user-accounts # Switchboard User Accounts Plug
+  - sysprof # Kernel based performance profiler
+  - tealdeer # A fast tldr client in Rust
+  - tesseract # An OCR program
+  - tesseract-data-eng # Tesseract OCR data (eng)
+  - texinfo # GNU documentation system for on-line information and printed output
+  - the_silver_searcher # Code searching tool similar to Ack, but faster
+  - thefuck # Magnificent app which corrects your previous console command
+  - thermald # The Linux Thermal Daemon program from 01.org
+  - tidy # A tool to tidy down your HTML code to a clean style
+  - tlp # Linux Advanced Power Management
+  - torsocks # Wrapper to safely torify applications
+  - tracker # A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser.
+  - tracker3-miners # Collection of data extractors for Tracker/Nepomuk
+  - transmission-gtk # Fast, easy, and free BitTorrent client (GTK+ GUI)
+  - trash-cli # Command line trashcan (recycle bin) interface
+  - ttf-arphic-ukai # CJK Unicode font Kaiti style
+  - ttf-arphic-uming # CJK Unicode font Ming style
+  - ttf-croscore # Chrome OS core fonts
+  - ttf-droid # General-purpose fonts released by Google as part of Android
+  - ttf-roboto-mono # A monospaced addition to the Roboto type family.
+  - ttf-ubuntu-font-family # Ubuntu font family
+  - unixodbc # ODBC is an open specification for providing application developers with a predictable API with which to access Data Sources
+  - valabind # Tool to parse vala or vapi files to transform them into swig interface files, C++, NodeJS-ffi or GIR
+  - valgrind # Tool to help find memory-management problems in programs
+  - variety # Changes the wallpaper on a regular interval using user-specified or automatically downloaded images.
+  - vdpauinfo # Command line utility for querying the capabilities of a VDPAU device
+  - vinagre # A VNC Client for the GNOME desktop
+  - virt-manager # Desktop user interface for managing virtual machines
+  - virt-viewer # A lightweight interface for interacting with the graphical display of virtualized guest OS.
+  - wget # Network utility to retrieve files from the Web
+  - which # Low level library, upon which multimedia APIs can be built
+  - whois # Intelligent WHOIS client
+  - wingpanel # The Pantheon Top Panel
+  - wingpanel-indicator-bluetooth # Wingpanel Bluetooth Indicator
+  - wingpanel-indicator-datetime # Date & Time indicator for Wingpanel
+  - wingpanel-indicator-keyboard # Wingpanel Keyboard Indicator
+  - wingpanel-indicator-network # Wingpanel Network Indicator
+  - wingpanel-indicator-nightlight # Winganel Nightlight Indicator
+  - wingpanel-indicator-notifications # Notifications indicator for Wingpanel
+  - wingpanel-indicator-power # Wingpanel Power Indicator
+  - wingpanel-indicator-session # Session indicator for Wingpanel
+  - wingpanel-indicator-sound # Wingpanel Sound Indicator
+  - xf86-input-evdev # X.org evdev input driver
+  - xorg-fonts-type1 # X.org Type1 fonts
+  - xorg-server # Xorg X server
+  - xorg-server-xephyr # A nested X server that runs as an X application
+  - xorg-xev # Print contents of X events
+  - xorg-xhost # Server access control program for X
+  - xorg-xinput # Small commandline tool to configure devices
+  - xscreensaver # Screen saver and locker for the X Window System
+  - xterm # A mouse server for the console and xterm
+  - yamllint # Linter for YAML files
+  - yarn # Fast, reliable, and secure dependency management
+  - youtube-dl # A command-line program to download videos from YouTube.com and a few more sites
+  - zeitgeist-explorer # Graphical interface to monitor and inspect Zeitgeist's log at a low level
+  - zoxide # A smarter cd command for your terminal
+  - zps # A small utility for listing and cleaning up zombie processes

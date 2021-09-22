@@ -1,0 +1,136 @@
+foreign_packages:
+  - aerial-2k-videos  # Apple TV4 HD aerial movies in 2k
+  - amber-bridge  # Bring the Unix philosophy to the browser.
+  - ancient-packages  # Lists installed packages no longer available (anywhere)
+  - apfs-fuse-git  # FUSE driver for APFS (Apple File System)
+  - appeditor  # Easily edit Desktop file entries.
+  - asdf-vm  # Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more
+  - aurvote  # Tool to vote for favorite AUR packages
+  - automake-1.11  # A GNU tool for automatically creating Makefiles
+  - badger  # Ergonomic reminder application designed for elementary OS.
+  - beautysh  # A Bash beautifier for the masses
+  - bst-external  # A collection of extra plugins for BuildStream
+  - buildstream  # A collection of extra plugins for BuildStream
+  - checkra1n-gui  # checkra1n is a semi-tethered jailbreak based on the checkm8 bootrom exploit. (GUI version)
+  - color-picker  # A color picker for elementary OS.
+  - compdb  # The compilation database Swiss army knife
+  - cronopete  # A graphical backup utility based on Apple Time Machine idea.
+  - cruft  # Maintain all the necessary boilerplate for packaging and building projects separate from the code you intentionally write. Fully compatible with existing Cookiecutter templates
+  - debtap  # A script to convert .deb packages to Arch Linux packages, focused on accuracy. Do not use it to convert packages that already exist on official repositories or can be built from AUR!
+  - dialect  # A translation app for GNOME.
+  - diodon  # GTK+ clipboard manager
+  - direnv  # a shell extension that manages your environment
+  - docker-credential-pass-bin  # Store docker credentials using the Standard Unix Password Manager (pass)
+  - dockfmt  # Dockerfile format and parser. Like `gofmt` but for Dockerfiles.
+  - downgrade  # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
+  - elementary-friends  # See and contact your friends from elementary OS
+  - elementary-planner  # Task manager with Todoist support
+  - emacs-native-comp-git-enhanced  # GNU Emacs. Development native-comp branch and pgtk branch combined.
+  - emote  # Emoji Picker for Linux written in GTK3
+  - espanso  # Cross-platform Text Expander written in Rust
+  - facade  # Style Gtk applications by window class
+  - fbrokendesktop  # Search for broken Exec in *.desktop
+  - find-the-command  # Advanced command-not-found hook for bash and zsh using the power of pacman
+  - firefox-beta-bin  # Standalone web browser from mozilla.org - Beta
+  - firefox-extension-amber  # Bring the Unix philosophy to the browser.
+  - firefox-extension-amber-bridge  # Bring the Unix philosophy to the browser.
+  - firefox-extension-arch-search  # A set of Web Extensions that adds ArchLinux (bug tracker, forum, packages, wiki, AUR) as a search engine to the Firefox browser.
+  - firefox-extension-synapse-web-bridge  # A host application to provide browser integration to Synapse
+  - firefox-extension-tracker-web-bridge  # A host application to provide browser integration to Tracker
+  - firefox-extension-zeitgeist-bridge  # A host application to provide browser integration to Zeitgeist
+  - fstabfmt  # Format /etc/fstab files
+  - gala-switch  # Keep your computer awake with ease
+  - gifup  # Native Linux IRC client built in Vala and Gtk for elementary OS.
+  - gimp-plugin-export-layers  # GIMP plug-in that exports layers as separate images.
+  - git-absorb  # git commit --fixup, but automatic
+  - git-cal-git  # github like contributions calendar on terminal
+  - git-secrets  # Prevents you from committing secrets and credentials into git repositories
+  - git-summary  # Script to print a summary of git author contributions
+  - glimpse-editor-git  # Fork of the GNU Image Manipulation Program
+  - gnome-activity-journal  # Activity Journal for the GNOME desktop environment
+  - gnvim  # GUI for neovim, without any web bloat
+  - gsignond  # gSSO glib daemon
+  - gsignond-plugin-lastfm  # LastFM plugin for gSSO
+  - gsignond-plugin-mail  # Mail plugin for gSSO
+  - gsignond-plugin-sasl  # SASL plugin for gSSO
+  - harvey  # WCAG color contrast compliance checker
+  - hourglass  # Simple clock application that provides stopwatches, alarms, and timers
+  - iconoscope  # Explore the icon database in your system
+  - ifuse  # A fuse filesystem to access the contents of an iPhone or iPod Touch
+  - image-optimizer  # Simple losless image optimizer build for Elementary OS
+  - indicator-application  # Indicator to take menus from applications and place them in the panel
+  - iridium  # Native Linux IRC client built in Vala and Gtk for elementary OS.
+  - juniper-plymouth-theme  # A smart, simple Plymouth theme.
+  - jupyterlab_code_formatter  # A universal code formatter for JupyterLab.
+  - jupyterlab-lsp  # Coding assistance for JupyterLab with Language Server Protocol.
+  - konbucase  # Convert case of your text
+  - libdocset  # DocSet support for Devhelp.
+  - libimobiledevice-git  # Library that talks the protocols to support iPhone and iPod Touch devices on Linux
+  - libnm-glib-nosystemd-minimal  # NetworkManager client library (legacy)
+  - litecli  # A command-line client for SQLite databases that has auto-completion and syntax highlighting.
+  - locksmith  # A simple password generator app designed for elementary OS.
+  - lsdesktopf  # List available *.desktop files and search in their content.
+  - mozilla-common  # Helper for forks of the Mozilla codebase which still support NPAPI
+  - mqtt-explorer  # A comprehensive and easy-to-use MQTT Client
+  - neovim-symlinks  # Runs neovim if vi or vim is called
+  - nocturnal  # Pantheon greeter for LightDM
+  - nodejs-markdownlint-cli  # MarkdownLint Command Line Interface
+  - notejot  # A stupidly-simple sticky notes application for any type of short term notes or ideas
+  - noto-fonts-emoji-apple  # Google Noto emoji fonts replaced with apple branded emoji, modified form a magisk module
+  - nvm  # Node Version Manager - Simple bash script to manage multiple active node.js versions
+  - opendrop  # An open Apple AirDrop implementation
+  - otf-nerd-fonts-fira-code  # Monospaced font with programming ligatures. Patched with Nerd Fonts icons.
+  - overdue  # Get notified about running daemons that reference outdated shared libraries
+  - pacman-cleanup-hook  # hook to cleanup pacman cache keeping only the installed version plus most recent cache
+  - pandoc-bin  # Pandoc - executable only, without 750MB Haskell depends/makedepends
+  - paru  # Feature packed AUR helper
+  - pebbles  # An easy to use yet powerful calculator application designed for elementary OS.
+  - phockup  # Media sorting tool to organize photos and videos from your camera in folders by year, month and day.
+  - ping  # A library to handle UPnP IGD port mapping
+  - plymouth  # A smart, simple Plymouth theme.
+  - python-googletrans  # Free Google Translate API for Python.
+  - python-grpcio-tools  # Python protobuf generator for GRPC
+  - python-gtts  # Module and command line utility to save spoken text to mp3 via the Google Text to Speech (TTS) API
+  - python-yamlfmt  # Mix and match virtual yamlfmtironments.
+  - quick-lookup  # Simple GTK dictionary application powered by Wiktionary
+  - rbenv  # Simple Ruby version manager
+  - read-it-later  # A Gtk-based wallabag client.
+  - reflector-mirrorlist-update  # Use reflector to update mirrorlist when pacman-mirrorlist is updated
+  - regex-tester  # A simple regex tester designed for elementary OS
+  - resizer  # A quick image resizing app designed for Elementary OS.
+  - rr  # AV1 cross-platform decoder focused on speed and correctness
+  - shellcheck-bin  # Shell script analysis tool (binary release)
+  - sourcekitten  # An adorable little framework and command line tool for interacting with SourceKit.
+  - spotify-adblock-linux  # Spotify adblocker for Linux
+  - sqlfluff  # A SQL linter and auto-formatter for Humans
+  - stripe-cli-bin  # A command-line tool for Stripe
+  - swift-language  # The Swift programming language and debugger
+  - swiftenv  # Swift Version Manager
+  - synapse-web-bridge  # A host application to provide browser integration to Synapse
+  - syncthing-gtk  # GTK3 based GUI and notification area icon for Syncthing
+  - tableplus  # Modern, native, and friendly GUI tool for relational databases (Alpha)
+  - timelineproject-hg  # Aims to create a free, cross-platform application for displaying and navigating events on a timeline.
+  - timeshift  # A system restore utility for Linux
+  - title-case-converter  # Convert text to title case
+  - tlpui  # A GTK user interface for TLP written in Python
+  - tootle  # GTK3 client for Mastodon
+  - topgrade  # Invoke the upgrade procedure of multiple package managers
+  - touche  # The desktop application to configure Touchégg
+  - touchegg  # Multitouch gesture recognizer
+  - tracker-web-bridge  # A host application to provide browser integration to Tracker
+  - ttf-barlow  # Grotesk font based inspired by the California state car plates and road signs
+  - ttf-opendyslexic  # OpenDyslexic is a new open source font created to increase readability for readers with dyslexia. It was built on Jim Lyles’s Bitstream Vera Sans, and is free for Commercial and Personal
+  - ttf-plainblack  # A blackletter font designed by Paul Lloyd.
+  - ttf-raleway  # An elegant sans-serif font family, now 9 weights and italic style
+  - ttf-sil-mondulkiri  # Khmer Mondulkiri, Busra, Oureang, and Ratanakiri fonts for the Khmer script
+  - ttf-sil-padauk  # Unicode font that supports the many diverse languages that use the Myanmar script
+  - vala-language-server  # Language Server for Vala
+  - vala-tester  # Run your Vala Scribbles
+  - venn  # Mix and match virtual environments.
+  - virtualfish  # Fish shell tool for managing Python virtual environments
+  - windscribe-cli  # Port of Windscribe's command line interface
+  - wingpanel-indicator-caffeine  # Keep your computer awake with ease
+  - xkcdpass  # Generate secure passphares inspired by XKCD
+  - xscreensaver-aerial  # xscreensaver hack that randomly selects one of the Apple TV4 HD aerial movies
+  - zeitgeist-bridge  # A host application to provide browser integration to Zeitgeist
+  - zeitgeist-data-source-gala  # Record your application usage in Zeitgeist

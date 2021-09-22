@@ -1,0 +1,20 @@
+make_packages:
+  - chrpath  # imagemagick
+  - cython  # libimobiledevice, a bunch of python- packages
+  - dejagnu  # gcc (check)
+  - ghostpcl  # imagemagick
+  - ghostxps  # imagemagick
+  - gnome-common  # gala
+  - go  # idk, something, most likely
+  - inetutils  # firefox
+  - jbigkit  # imagemagick
+  - libgsignon-glib  # not sure, but sounds important
+  - libnautilus-extension  # brasero
+  - nasm  # firefox
+  - opencl-headers  # imagemagick
+  - python-pipenv  # emote
+  - python-pytest-mock  # some python- packages
+  - python-sphinx_rtd_theme  # linux
+  - scdoc  # arch-audit
+  - xf86-input-wacom  # gnome-settings-daemon
+  - xmlto  # linux
