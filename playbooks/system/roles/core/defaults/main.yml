@@ -1,8 +1,6 @@
 core_packages:
   - acpi # Client for battery, power, and thermal readings
   - alsa-utils # Advanced Linux Sound Architecture - Utilities
-  - ansible # Official assortment of Ansible collections
-  - ansible-lint # Checks playbooks for practices and behaviour that could potentially be improved.
   - ant # Java based build tool
   - arch-audit # A utility like pkg-audit based on Arch Security Team data
   - asciidoc # Text document format for short documents, articles, books and UNIX man pages

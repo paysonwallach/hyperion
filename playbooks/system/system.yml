@@ -19,6 +19,7 @@
         state: present
 
   roles:
+    - ansible
     - core
     - foreign
     - optional
