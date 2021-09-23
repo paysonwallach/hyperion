@@ -25,6 +25,7 @@
     - foreign
     - lightdm
     - linux
+    - magic-mouse
     - optional
     - pipewire
     - sudo
