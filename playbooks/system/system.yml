@@ -24,6 +24,7 @@
     - core
     - foreign
     - lightdm
+    - linux
     - optional
     - make
 

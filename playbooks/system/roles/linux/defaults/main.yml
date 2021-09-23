@@ -1,0 +1,7 @@
+---
+linux_packages:
+  - linux  # An alternative implementation of Linux sound support
+  - linux-firmware  # Firmware files for Linux
+  - linux-macbook  # The Linux-macbook kernel and modules
+  - linux-macbook-docs  # Documentation for the linux-macbook kernel
+  - linux-macbook-headers  # Header files and scripts for building modules for the linux-macbook kernel

@@ -120,8 +120,6 @@ core_packages:
   - libva-utils # Intel VA-API Media Applications and Scripts for libva
   - libvdpau-va-gl # VDPAU driver with OpenGL/VAAPI backend
   - lifeograph # Private journal, diary and note taking application
-  - linux # An alternative implementation of Linux sound support
-  - linux-firmware # Firmware files for Linux
   - lld # Linker from the LLVM project
   - llvm # C language family frontend for LLVM
   - logrotate # Rotates system logs automatically
