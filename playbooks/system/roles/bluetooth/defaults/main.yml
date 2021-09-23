@@ -1,0 +1,4 @@
+bluetooth_packages:
+  - bluez # Daemons for the bluetooth protocol stack
+  - bluez-cups # CUPS printer backend for Bluetooth printers
+  - bluez-utils # Development and debugging utilities for the bluetooth protocol stack

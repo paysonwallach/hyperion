@@ -17,8 +17,6 @@ core_packages:
   - bind # C++ bindings for ATK
   - binutils # A set of programs to assemble and manipulate binary and object files
   - bison # The GNU general-purpose parser generator
-  - bluez-cups # CUPS printer backend for Bluetooth printers
-  - bluez-utils # Development and debugging utilities for the bluetooth protocol stack
   - boost # Free peer-reviewed portable C++ source libraries (development headers)
   - brasero # CD/DVD mastering tool
   - breezy # A decentralized revision control system with support for Bazaar and Git file formats
