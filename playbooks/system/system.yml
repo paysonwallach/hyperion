@@ -27,6 +27,7 @@
     - linux
     - magic-mouse
     - optional
+    - pantheon
     - pipewire
     - sudo
     - systemd-resolved

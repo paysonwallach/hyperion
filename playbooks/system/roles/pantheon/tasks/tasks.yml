@@ -1,0 +1,42 @@
+---
+- name: Install packages
+  kewlfft.aur.aur:
+    name: "{{ pantheon_packages }}"
+    state: present
+
+- name: Append package list
+  ansible.builtin.include_tasks: util/append-packages.yml
+  with_items:
+    - ["{{ pantheon_packages }}"]
+
+- name: Install CSD configuration
+  ansible.builtin.copy:
+    src: "files/etc/profile.d/gtk-csd.sh"
+    dest: "/etc/profile.d/gtk-csd.sh"
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Install QT configuration
+  ansible.builtin.copy:
+    src: "files/etc/profile.d/qt-qpa-platformtheme.sh"
+    dest: "/etc/profile.d/qt-qpa-platformtheme.sh"
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Install GSettings overrides
+  ansible.builtin.copy:
+    src: "files/usr/share/glib-2.0/schemas/60_juniper.gschema.override"
+    dest: "/usr/share/glib-2.0/schemas/60_juniper.gschema.override"
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Install session desktop files
+  ansible.builtin.copy:
+    src: "files/usr/share/xsessions/pantheon.desktop"
+    dest: "/usr/share/xsessions/pantheon.desktop"
+    owner: root
+    group: root
+    mode: '0644'

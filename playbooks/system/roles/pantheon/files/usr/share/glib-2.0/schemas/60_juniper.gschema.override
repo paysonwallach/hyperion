@@ -1,0 +1,4 @@
+[org.gnome.desktop.interface]
+cursor-theme="elementary"
+gtk-theme="elementary"
+icon-theme="elementary"
