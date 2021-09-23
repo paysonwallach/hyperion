@@ -1,3 +1,4 @@
+---
 foreign_packages:
   - aerial-2k-videos  # Apple TV4 HD aerial movies in 2k
   - amber-bridge  # Bring the Unix philosophy to the browser.

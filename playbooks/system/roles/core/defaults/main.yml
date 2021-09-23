@@ -1,3 +1,4 @@
+---
 core_packages:
   - acpi  # Client for battery, power, and thermal readings
   - alsa-utils  # Advanced Linux Sound Architecture - Utilities

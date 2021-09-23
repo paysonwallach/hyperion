@@ -1,3 +1,4 @@
+---
 ansible_packages:
   - ansible  # Official assortment of Ansible collections
   - ansible-lint  # Checks playbooks for practices and behaviour that could potentially be improved.

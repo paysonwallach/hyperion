@@ -1,3 +1,4 @@
+---
 optional_packages:
   - avisynthplus  # An improved version of the AviSynth frameserver
   - cmake  # A cross-platform open-source make system

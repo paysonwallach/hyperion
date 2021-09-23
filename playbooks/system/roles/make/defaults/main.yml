@@ -1,3 +1,4 @@
+---
 make_packages:
   - chrpath  # imagemagick
   - cython  # libimobiledevice, a bunch of python- packages
