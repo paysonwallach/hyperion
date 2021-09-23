@@ -1,0 +1,26 @@
+---
+- name: Install packages
+  kewlfft.aur.aur:
+    name: "{{ lightdm_packages }}"
+    state: present
+
+- name: Append package list
+  ansible.builtin.include_tasks: util/append-packages.yml
+  with_items:
+    - ["{{ lightdm_packages }}"]
+
+- name: Install configuration file
+  ansible.builtin.copy:
+    src: "../files/etc/lightdm/lightdm.conf"
+    dest: "/etc/lightdm/lightdm.conf"
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Install tmpfiles configuration file
+  ansible.builtin.copy:
+    src: "../files/etc/tmpfiles.d/lightdm.conf"
+    dest: "/etc/tmpfiles.d/lightdm.conf"
+    owner: root
+    group: root
+    mode: '0644'

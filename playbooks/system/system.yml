@@ -23,6 +23,7 @@
     - bluetooth
     - core
     - foreign
+    - lightdm
     - optional
     - make
 
