@@ -26,6 +26,7 @@
     - lightdm
     - linux
     - optional
+    - pipewire
     - make
 
   post_tasks:

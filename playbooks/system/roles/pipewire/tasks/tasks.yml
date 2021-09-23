@@ -1,0 +1,18 @@
+---
+- name: Install packages
+  kewlfft.aur.aur:
+    name: "{{ pipewire_packages }}"
+    state: present
+
+- name: Append package list
+  ansible.builtin.include_tasks: util/append-packages.yml
+  with_items:
+    - ["{{ pipewire_packages }}"]
+
+- name: Install Pulse configuration
+  ansible.builtin.copy:
+    src: "../files/etc/pipewire/pipewire-pulse.conf"
+    dest: "/etc/pipewire/pipewire-pulse.conf"
+    owner: root
+    group: root
+    mode: '0644'

@@ -168,7 +168,6 @@ core_packages:
   - php # A general-purpose scripting language that is especially suited to web development
   - php7 # A general-purpose scripting language that is especially suited to web development
   - pidgin # IM library extracted from Pidgin
-  - pipewire-pulse # Low-latency audio/video router and processor - PulseAudio replacement
   - pkgconf # Package compiler and linker metadata toolkit
   - plank # Elegant, simple, clean dock
   - poedit # Cross-platform gettext catalogs (.po files) editor
