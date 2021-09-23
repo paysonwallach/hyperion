@@ -1,15 +1,15 @@
 optional_packages:
-  - avisynthplus # An improved version of the AviSynth frameserver
-  - cmake # A cross-platform open-source make system
-  - ladspa # Linux Audio Developer's Simple Plugin API (LADSPA)
-  - libmicrohttpd # a small C library that is supposed to make it easy to run an HTTP server as part of another application.
-  - libwmf # A library for reading vector images in Microsoft's native Windows Metafile Format (WMF)
-  - ocl-icd # OpenCL ICD Bindings
-  - p7zip # Command-line file archiver with high compression ratio
-  - python2-setuptools # Easily download, build, install, upgrade, and uninstall Python packages
-  - python-h2 # HTTP/2 State-Machine based protocol implementation
-  - python-nose # A discovery-based unittest extension
-  - python-pyudev # Python bindings to libudev
-  - python-typed-ast # a fork of Python 2 and 3 ast modules with type comment support
-  - sdl # A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
-  - vamp-plugin-sdk # The Vamp audio analysis plug-in system
+  - avisynthplus  # An improved version of the AviSynth frameserver
+  - cmake  # A cross-platform open-source make system
+  - ladspa  # Linux Audio Developer's Simple Plugin API (LADSPA)
+  - libmicrohttpd  # a small C library that is supposed to make it easy to run an HTTP server as part of another application.
+  - libwmf  # A library for reading vector images in Microsoft's native Windows Metafile Format (WMF)
+  - ocl-icd  # OpenCL ICD Bindings
+  - p7zip  # Command-line file archiver with high compression ratio
+  - python2-setuptools  # Easily download, build, install, upgrade, and uninstall Python packages
+  - python-h2  # HTTP/2 State-Machine based protocol implementation
+  - python-nose  # A discovery-based unittest extension
+  - python-pyudev  # Python bindings to libudev
+  - python-typed-ast  # a fork of Python 2 and 3 ast modules with type comment support
+  - sdl  # A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
+  - vamp-plugin-sdk  # The Vamp audio analysis plug-in system

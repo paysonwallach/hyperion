@@ -1,2 +1,2 @@
 sudo_packages:
-  - sudo # Give certain users the ability to run some commands as root
+  - sudo  # Give certain users the ability to run some commands as root

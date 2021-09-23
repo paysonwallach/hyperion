@@ -1,2 +1,2 @@
 pipewire_packages:
-  - pipewire-pulse # Low-latency audio/video router and processor - PulseAudio replacement
+  - pipewire-pulse  # Low-latency audio/video router and processor - PulseAudio replacement
