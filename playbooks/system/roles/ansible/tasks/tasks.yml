@@ -11,7 +11,7 @@
 
 - name: Install hosts file
   ansible.builtin.copy:
-    src: "../files/hosts"
+    src: "files/hosts"
     dest: "/etc/ansible/hosts"
     owner: root
     group: root

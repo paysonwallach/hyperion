@@ -1,7 +1,7 @@
 ---
 - name: Install mDNS configuration
   ansible.builtin.copy:
-    src: "../files/etc/systemd/resolved.conf.d/mDNS.conf"
+    src: "files/etc/systemd/resolved.conf.d/mDNS.conf"
     dest: "/etc/systemd/resolved.conf.d/mDNS.conf"
     owner: root
     group: root

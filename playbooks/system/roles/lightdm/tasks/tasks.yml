@@ -11,7 +11,7 @@
 
 - name: Install configuration file
   ansible.builtin.copy:
-    src: "../files/etc/lightdm/lightdm.conf"
+    src: "files/etc/lightdm/lightdm.conf"
     dest: "/etc/lightdm/lightdm.conf"
     owner: root
     group: root
@@ -19,7 +19,7 @@
 
 - name: Install tmpfiles configuration file
   ansible.builtin.copy:
-    src: "../files/etc/tmpfiles.d/lightdm.conf"
+    src: "files/etc/tmpfiles.d/lightdm.conf"
     dest: "/etc/tmpfiles.d/lightdm.conf"
     owner: root
     group: root

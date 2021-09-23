@@ -11,7 +11,7 @@
 
 - name: Install headset configuration
   ansible.builtin.copy:
-    src: "../files/etc/bluetooth/audio.conf"
+    src: "files/etc/bluetooth/audio.conf"
     dest: "/etc/bluetooth/audio.conf"
     owner: root
     group: root

@@ -11,7 +11,7 @@
 
 - name: Load WiFi module
   ansible.builtin.copy:
-    src: "../files/etc/modules-load.d/brcmfmac.conf"
+    src: "files/etc/modules-load.d/brcmfmac.conf"
     dest: "/etc/modules-load.d/brcmfmac.conf"
     owner: root
     group: root

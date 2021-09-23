@@ -11,7 +11,7 @@
 
 - name: Install Pulse configuration
   ansible.builtin.copy:
-    src: "../files/etc/pipewire/pipewire-pulse.conf"
+    src: "files/etc/pipewire/pipewire-pulse.conf"
     dest: "/etc/pipewire/pipewire-pulse.conf"
     owner: root
     group: root
