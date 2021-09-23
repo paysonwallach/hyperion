@@ -1,0 +1,18 @@
+---
+- name: Install packages
+  kewlfft.aur.aur:
+    name: "{{ sudo_packages }}"
+    state: present
+
+- name: Append package list
+  ansible.builtin.include_tasks: util/append-packages.yml
+  with_items:
+    - ["{{ sudo_packages }}"]
+
+- name: Install password prompt configuration
+  ansible.builtin.copy:
+    src: "files/etc/sudoers.d/passprompt"
+    dest: "/etc/sudoers.d/passprompt"
+    owner: root
+    group: root
+    mode: '0644'

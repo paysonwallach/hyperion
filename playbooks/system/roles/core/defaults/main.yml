@@ -209,7 +209,6 @@ core_packages:
   - stk # The Synthesis ToolKit in C++
   - stow # Manage installation of multiple softwares in the same directory tree
   - strace # A diagnostic, debugging and instructional userspace tracer
-  - sudo # Give certain users the ability to run some commands as root
   - svgcleaner # An application that cleans svg images from unnecessary data in batch mode.
   - switchboard # The Pantheon Control Center
   - switchboard-plug-a11y # Switchboard Universal Access Plug

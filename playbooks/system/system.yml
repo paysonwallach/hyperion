@@ -27,6 +27,7 @@
     - linux
     - optional
     - pipewire
+    - sudo
     - make
 
   post_tasks:
