@@ -28,6 +28,7 @@
     - optional
     - pipewire
     - sudo
+    - systemd-resolved
     - make
 
   post_tasks:
