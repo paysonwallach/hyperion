@@ -3,6 +3,8 @@
   kewlfft.aur.aur:
     name: "{{ foreign_packages }}"
     state: present
+  become: yes
+  become_user: "{{ lookup('env', 'USER') }}"
 
 - name: Append package list
   ansible.builtin.include_tasks: util/append-packages.yml
