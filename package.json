@@ -4,6 +4,7 @@
   "license": "GPL-3.0",
   "author": "Payson Wallach <payson@paysonwallach.com>",
   "scripts": {
+    "check": "ansible-playbook --check --inventory playbooks/system/inventories/production/hosts --user paysonwallach playbooks/system/system.yml",
     "deploy": "ansible-playbook --become --ask-become-pass --inventory playbooks/system/inventories/production/hosts --user paysonwallach playbooks/system/system.yml",
     "lint": "run-p lint:*",
     "lint:ansible": "ansible-lint playbooks/",
