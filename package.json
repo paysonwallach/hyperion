@@ -4,10 +4,10 @@
   "license": "GPL-3.0",
   "author": "Payson Wallach <payson@paysonwallach.com>",
   "scripts": {
+    "deploy": "ansible-playbook --become --ask-become-pass --inventory playbooks/system/inventories/production/hosts --user paysonwallach playbooks/system/system.yml",
     "lint": "run-p lint:*",
     "lint:ansible": "ansible-lint playbooks/",
-    "lint:yamllint": "yamllint -c .yamllint playbooks/",
-    "run": "ansible-playbook --become --ask-become-pass --inventory playbooks/system/inventories/production/hosts --user paysonwallach playbooks/system/system.yml"
+    "lint:yamllint": "yamllint -c .yamllint playbooks/"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.2.0",
