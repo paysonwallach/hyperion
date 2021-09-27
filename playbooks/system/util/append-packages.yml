@@ -20,4 +20,4 @@
 - name: Debug packages
   debug:
     msg: "{{ packages }}"
-  when: debug
+    verbosity: 1

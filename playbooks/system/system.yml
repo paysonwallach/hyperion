@@ -43,7 +43,7 @@
         installed_packages_list: "{{ installed_packages.stdout_lines }}"
       ansible.builtin.debug:
         msg: "explicitly-installed packages to be removed {{ installed_packages_list | difference(packages) }}"
-      when: debug
+        verbosity: 1
 
     - name: Remove explicitly-installed packages that have not been listed
       vars:
@@ -63,7 +63,7 @@
     - name: Debug "Remove orphaned packages"
       ansible.builtin.debug:
         msg: "orphaned packages to be removed: {{ orphans }}"
-      when: debug
+        verbosity: 1
 
     - name: Remove orphaned packages
       vars:
