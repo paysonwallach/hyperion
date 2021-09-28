@@ -69,7 +69,6 @@ core_packages:
   - gitg  # GNOME GUI client to view git repositories
   - glade  # User Interface Builder for GTK+ applications
   - gnome-boxes  # Simple GNOME application to access virtual systems
-  - gnome-characters  # A character map application
   - gnome-dictionary  # Look up words in dictionary sources
   - gnome-disk-utility  # Disk Management Utility for GNOME
   - gnome-documents  # A document manager application for GNOME
