@@ -69,6 +69,7 @@ core_packages:
   - gitg  # GNOME GUI client to view git repositories
   - glade  # User Interface Builder for GTK+ applications
   - gnome-boxes  # Simple GNOME application to access virtual systems
+  - gnome-connections  # Remote desktop client for the GNOME desktop environment
   - gnome-dictionary  # Look up words in dictionary sources
   - gnome-disk-utility  # Disk Management Utility for GNOME
   - gnome-documents  # A document manager application for GNOME
@@ -222,7 +223,6 @@ core_packages:
   - valgrind  # Tool to help find memory-management problems in programs
   - variety  # Changes the wallpaper on a regular interval using user-specified or automatically downloaded images.
   - vdpauinfo  # Command line utility for querying the capabilities of a VDPAU device
-  - vinagre  # A VNC Client for the GNOME desktop
   - virt-manager  # Desktop user interface for managing virtual machines
   - virt-viewer  # A lightweight interface for interacting with the graphical display of virtualized guest OS.
   - wget  # Network utility to retrieve files from the Web

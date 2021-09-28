@@ -1,6 +1,6 @@
 ---
-# HACK: do not allow query to fail (which it will frequently) since we check
-# the return code anyway, thus suppressing noisy output
+# HACK: do not allow query to fail (which it will frequently),as the return
+# code is checked anyway, thus suppressing noisy output
 # https://stackoverflow.com/questions/35723913/need-to-hide-failed-log-in-ansible-task
 - name: List package group members
   ansible.builtin.shell: pacman -Qqg {{ item }}
