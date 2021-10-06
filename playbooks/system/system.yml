@@ -37,13 +37,7 @@
     - name: List all explicitly-installed packages
       ansible.builtin.shell: pacman -Qqe
       register: installed_packages
-
-    - name: Debug "Remove explicitly-installed packages that have not been listed"
-      vars:
-        installed_packages_list: "{{ installed_packages.stdout_lines }}"
-      ansible.builtin.debug:
-        msg: "explicitly-installed packages to be removed {{ installed_packages_list | difference(packages) }}"
-        verbosity: 1
+      check_mode: yes
 
     - name: Remove explicitly-installed packages that have not been listed
       vars:
@@ -59,11 +53,7 @@
       ansible.builtin.shell: pacman -Qtdq
       failed_when: false
       register: orphans
-
-    - name: Debug "Remove orphaned packages"
-      ansible.builtin.debug:
-        msg: "orphaned packages to be removed: {{ orphans }}"
-        verbosity: 1
+      check_mode: yes
 
     - name: Remove orphaned packages
       vars:
